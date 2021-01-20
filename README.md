@@ -39,11 +39,15 @@ List assignee of a repository, for creating issue later
 Add an issue to one repository, can set label and assignee
 
 > add_issue_<label> <repo> <assignee> title
+
 >  nội dung dòng 1
+
 >  nội dung dòng 2
+
 >  nội dung dòng 3(cho phép nhiều dòng)
 
 Tạo một issue thuộc <label>.
+Vd: add_issue_documentation <-- label = documentation
 
 #### trans
 
