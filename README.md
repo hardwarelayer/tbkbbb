@@ -38,7 +38,7 @@ List assignee of a repository, for creating issue later
 
 Add an issue to one repository, can set label and assignee
 
-> add_issue_<label> <repo> <assignee> title
+> add_issue_label repo_name assignee title
 
 >  nội dung dòng 1
 
@@ -47,7 +47,10 @@ Add an issue to one repository, can set label and assignee
 >  nội dung dòng 3(cho phép nhiều dòng)
 
 Tạo một issue thuộc <label>.
-Vd: add_issue_documentation <-- label = documentation
+
+Vd: tạo 1 issue label documentation, trong repo big_project, assign cho 'hardwarelayer', title 'Hello, World Task'
+
+> add_issue_documentation big_project hardwarelayer Hello, World Task
 
 #### trans
 
@@ -71,17 +74,20 @@ Example:
 Create an issue in github with the last chat messages
 
 Format: 
-> save_chat <repo> <title> <line_count>
+
+> save_chat repo_name title line_count
+
 Or
-> save_chat_label <repo> <title> <line_count>
 
-Example:
+> save_chat_label repo> title line_count
 
-1. Create an issue in github repo name: big_project, with title: Hello, World, content is 12 last chat messages.
+Ví dụ:
+
+1. Create an issue in github repo name: big_project, with title: 'Hello, World', content is 12 last chat messages.
 
 > save_chat big_project Hello, World 12
 
-2. Create an issue with label **bug** in github repo name: big_project, with title: Hello, World, content is 12 last chat messages
+2. Create an issue with label **bug** in github repo name: big_project, with title: 'Hello, World', content is 12 last chat messages
 
 > save_chat_bug big_project Hello, World 12
 
