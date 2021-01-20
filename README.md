@@ -126,3 +126,10 @@ Test commands
 #### bot_help
 
 Lead to this page
+
+
+### Chú ý:
+
+TBKBBB chỉ làm việc với các group và user được cấu hình từ trước!
+
+
