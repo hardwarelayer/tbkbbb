@@ -62,23 +62,6 @@ Vd: tạo 1 issue label documentation, trong repo big_project, assign cho 'hardw
 
 > dòng 5 của content
 
-#### trans
-
-Dịch một đoạn text ra tiếng Anh
-
-Vd:
-
-> trans だいじょうぶです
-
-
-#### trans_chat
-
-Dịch các message chat vừa xong trong chat group hiện tại ra tiếng Anh.
-
-vd: Dịch 2 dòng vừa xong ra tiếng Anh
-
-> trans_chat 2
-
 
 #### save_chat
 
@@ -101,6 +84,23 @@ Ví dụ:
 2. Tạo một issue với label là **bug** trong repo tên là: big_project, với tiêu đề là: 'Hello, World', nội dung là 2 dòng chat gần nhất
 
 > save_chat_bug big_project Hello, World 2
+
+#### trans
+
+Dịch một đoạn text ra tiếng Anh
+
+Vd:
+
+> trans だいじょうぶです
+
+
+#### trans_chat
+
+Dịch các message chat vừa xong trong chat group hiện tại ra tiếng Anh.
+
+vd: Dịch 2 dòng vừa xong ra tiếng Anh
+
+> trans_chat 2
 
 #### load_month_worktime
 
