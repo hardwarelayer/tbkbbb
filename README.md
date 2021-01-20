@@ -91,6 +91,16 @@ Ví dụ:
 
 > save_chat_bug big_project Hello, World 12
 
+> dòng 1 của content
+
+> dòng 2 của content
+
+> dòng 3 của content
+
+> dòng 4 của content
+
+> dòng 5 của content
+
 #### load_month_worktime
 
 return all messages which can be related to worktime
