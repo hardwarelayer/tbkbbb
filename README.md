@@ -46,9 +46,9 @@ Tạo một isssue trong một repository, có thể đặt label và assignee
 
 >  nội dung dòng 3(cho phép nhiều dòng)
 
-Tạo một issue thuộc <label>.
+Tạo một issue và gán label cho nó.
 
-Vd: tạo 1 issue label documentation, trong repo big_project, assign cho 'hardwarelayer', title 'Hello, World Task'
+Vd: tạo 1 issue label 'documentation', trong repo 'big_project', assign cho 'hardwarelayer', title 'Hello, World Task'
 
 > add_issue_documentation big_project hardwarelayer Hello, World Task
 
@@ -62,6 +62,7 @@ Vd: tạo 1 issue label documentation, trong repo big_project, assign cho 'hardw
 
 > dòng 5 của content
 
+Chú ý: label và assignee phải tồn tại trong repo!
 
 #### save_chat
 
